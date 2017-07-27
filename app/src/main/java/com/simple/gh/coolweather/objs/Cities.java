@@ -1,10 +1,12 @@
 package com.simple.gh.coolweather.objs;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by gh on 2017-07-27.
  */
 
-public class City {
+public class Cities extends DataSupport{
     private int id;
     private String cityName;
     private int cityID;
